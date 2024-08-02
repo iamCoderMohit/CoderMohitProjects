@@ -4,9 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        nav ul{
+            list-style: none;
+            display: flex;
+            gap: 40px;
+            justify-content: center;
+            height: 60px;
+            align-items: center;
+            color: white;
+            border: 2px solid black;
+        }
+        nav{
+            background-color: rgb(84, 147, 255);
+        }
+        ul li{
+            border: 2px solid rgb(67, 240, 14); 
+            border-radius: 40px;
+            padding: 4px;
+        }
+    </style>
 </head>
 <body>
-    <h1>this is a heading</h1>
-    <h1>this is a heading</h1>
+   <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Contact</li>
+                <li>Profile</li>
+                <li>Log In</li>
+            </ul>
+        </nav>
+   </header>
 </body>
 </html>
